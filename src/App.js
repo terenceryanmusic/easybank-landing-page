@@ -6,8 +6,8 @@ import HomePage from './components/HomePage';
 function App() {
 	return (
 		<BrowserRouter>
-			<div className='min-h-screen bg-gradient-to-br from-slate-700 to-slate-900'>
-				<header className='flex p-10 h-20 bg-gray-100'>
+			<div className=''>
+				<header className='flex p-4 h-20 bg-gray-100'>
 					<div className='flex items-center'>
 						<img src={AppLogo} alt='' />
 						<nav className='absolute'>
